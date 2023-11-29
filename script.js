@@ -3,7 +3,7 @@ function volume_sphere() {
 	let radius = document.querySelector("#radius");
 	let volume = document.querySelector("#volume");
 	let r = radius.value;
-	let v = (4*3.14*(r**3))/3;
+	let v = (4*Math.PI*(r**3))/3;
 	volume.value = v;
   
 } 
